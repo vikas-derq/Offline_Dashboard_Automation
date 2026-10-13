@@ -1,0 +1,26 @@
+{
+  "name": "offline_dashboard_automation",
+  "version": "1.0.0",
+  "description": "Using Playwright Automation for UI testing and API testing for Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:api": "cucumber-js --tags '@api'",
+    "report": "node scripts/generate-report.js",
+    "report:specific": "node scripts/generate-specific-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.3",
+    "@types/node-fetch": "^2.6.13",
+    "node-fetch": "^2.7.0",
+    "multiple-cucumber-html-reporter": "^3.9.0",
+    "properties-reader": "^2.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["node", "@cucumber/cucumber"],
+    "outDir": "dist",
+    "skipLibCheck": true
+  },
+  "include": ["api/**/*.ts", "support/**/*.ts", "step-definitions/**/*.ts", "utils/**/*.ts", "types/**/*.d.ts", "constants.ts"]
+}
